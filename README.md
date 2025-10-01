@@ -1,8 +1,8 @@
-😴 Drowsy Driver Detection System
+## 😴 Drowsy Driver Detection System
 
 A real-time driver monitoring system that detects drowsiness and sleepiness using computer vision and triggers an alert to prevent accidents! 🚗⚠️
 
-🔹 Key Features
+### 🔹 Key Features
 
 👀 Eye Blink Detection: Tracks eye landmarks using Dlib and OpenCV.
 
@@ -14,7 +14,7 @@ A real-time driver monitoring system that detects drowsiness and sleepiness usin
 
 🎯 Accurate Detection: Uses blink ratio thresholds to detect fatigue reliably.
 
-🛠 Tech Stack
+### 🛠 Tech Stack
 
 - Language: Python
 
@@ -22,11 +22,11 @@ A real-time driver monitoring system that detects drowsiness and sleepiness usin
 
 - Models: shape_predictor_68_face_landmarks.dat (facial landmarks)
 
-  🚀 How to Run
+### 🚀 How to Run
 
 - Clone this repository.
 
-I- nstall required packages:
+- nstall required packages:
 pip install opencv-python dlib imutils numpy simpleaudio
 
 -Download shape_predictor_68_face_landmarks.dat and place it in the project folder.
@@ -36,7 +36,7 @@ python drowsy_driver_detection.py
 
 - Look into the webcam and see real-time status updates and audio alerts.
 
-## 📚 References
+### 📚 References
 
 - [Dlib Facial Landmark Detection](http://dlib.net/face_landmark_detection.py.html)  
 - [OpenCV Documentation](https://docs.opencv.org/)  
