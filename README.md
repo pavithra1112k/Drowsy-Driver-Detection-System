@@ -26,7 +26,7 @@ A real-time driver monitoring system that detects drowsiness and sleepiness usin
 
 - Clone this repository.
 
-- nstall required packages:
+- Install required packages:
 pip install opencv-python dlib imutils numpy simpleaudio
 
 -Download shape_predictor_68_face_landmarks.dat and place it in the project folder.
